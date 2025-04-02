@@ -1,16 +1,26 @@
-# flutter_application_2
+📱 Resumo do Projeto – Catálogo de Filmes
+Este aplicativo foi desenvolvido em Flutter com o objetivo de criar um catálogo de filmes organizado por categorias (gêneros). O app permite que o usuário:
 
-A new Flutter project.
+✅ Cadastre novas categorias (como Ação, Comédia, Terror)
 
-## Getting Started
+✅ Adicione filmes dentro dessas categorias
 
-This project is a starting point for a Flutter application.
+✅ Edite e exclua filmes já cadastrados
 
-A few resources to get you started if this is your first Flutter project:
+✅ Exclua categorias (removendo automaticamente os filmes associados)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Veja listas organizadas por gênero
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+💡 Funcionalidades principais:
+Navegação entre telas com Navigator
+
+Uso de listas dinâmicas com ListView
+
+Cadastro de dados com TextField e DropdownButton
+
+Validação de campos e mensagens com SnackBar
+
+Organização dos dados usando modelos (Filme, Genero)
+
+🎨 Interface:
+A interface foi construída com Widgets do Flutter padrão, focando na usabilidade. Algumas melhorias visuais simples foram aplicadas (como espaçamento, botões largos e tema com cor primária).
